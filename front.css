@@ -1,0 +1,112 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+.navbar{
+    background-color: #a5d6a7;
+    margin-bottom: 2%;
+
+}
+.navbar-brand{
+    width: 10%;
+}
+.nav-link{
+    color: #e57373 !important;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.bgimg{
+    background-image: url("https://img.freepik.com/free-photo/top-view-fresh-fruit-composition-with-french-macarons-light-pink-surface_140725-65947.jpg?t=st=1732266234~exp=1732269834~hmac=26233623f61d8b3c460414453c2789e88d125d98f27ca30e350f2ac02bed461d&w=1060");
+    width: 100vw;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+}
+.bgimg1{
+    background-image: url("https://img.freepik.com/free-photo/colourful-organic-ingredients-mexican-cuisine_23-2148254309.jpg?t=st=1738999054~exp=1739002654~hmac=ba89dcd3d1bfb8a37b55003267adc1479c8be89eb11e36342be13ff17d2bc770&w=1380");
+    width: 100vw;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+}
+.heading{
+    color: #2d492e;
+    text-shadow: 1px 2px 3px #726e6e ;
+    font-size: 50px;
+}
+.hbtn{
+    font-weight: bold !important;
+}
+.fa-bars{
+    color: white;
+}
+/* About start  */
+.mainhead{
+    color: green;
+    font-size: 45px;
+}
+.hist{
+    color: #a24554;
+    /* text-decoration: underline 3px solid black; */
+
+}
+.apara{
+    color: green;
+    line-height: 30px;
+}
+.d-block{
+    aspect-ratio: 4/2;
+    width: 100%;
+}
+
+/* product css  */
+.card-title{
+    color: #e91e63;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+}
+.card-text{
+    color: green;
+    text-align: center;
+}
+/* payment */
+#basic-addon1{
+    background-color:#e91e63 ;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+#basic-addon1:hover{
+    background-color: white;
+    color: #e91e63;
+    border: 1px solid #e91e63;
+}
+/* contact */
+.from-label{
+    color: #e91e63;
+    font-weight: bold;
+}
+/* footer */
+.im{
+    text-align: center;
+}
+.fhead{
+    color: black;
+}
+.fcontent h6{
+    color: brown;
+    text-decoration: underline 2px solid green;
+}
+.fcontent p{
+    color: blue;
+}
+.ficons{
+    color: red;
+    font-size: 30px;
+}
+.ficons .ic:hover{
+    color: black;
+    transform: rotate(180deg);
+}
